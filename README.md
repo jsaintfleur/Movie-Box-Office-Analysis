@@ -88,7 +88,10 @@ The analysis identified that movies released in **summer months** (June, July) a
   - `matplotlib`
   - `seaborn`
 
+You can install the required packages using:
 
+```bash
+pip install pandas matplotlib seaborn
 
 ## Folder Structure
 
