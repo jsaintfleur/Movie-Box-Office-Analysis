@@ -80,7 +80,7 @@ To make the data more interpretable and actionable, the following **visualizatio
 - **Genre vs Month Profit**: A box plot showing how different genres perform based on the release month.
 - **Profit Margin vs Budget**: A scatter plot displaying how profit margins vary across different budget sizes.
 - **Box Office Net vs Gross**: A regression plot illustrating the relationship between box office gross and net earnings.
-- **Budget and Break Even**: A box plot comparing the budgets of movies that break even versus those that incur a loss.
+- **Budget and Break Even**: A box plot comparing the budgets of movies that break-even versus those that incur a loss.
 - **Release Date vs Profit Margin**: A bar plot showing how the release date impacts profit margin.
 
 ## Key Insights
