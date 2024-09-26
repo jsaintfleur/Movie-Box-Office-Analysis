@@ -98,7 +98,6 @@ The analysis identified that movies released during the **summer months** (June,
 ## Folder Structure
 
 Movie-Box-Office-Analysis/
-│
 ├── images/               # Folder containing all generated visualizations
 │   ├── [genre_profitability.png](./images/genre_profitability.png)
 │   ├── [genre_profit_margin.png](./images/genre_profit_margin.png)
