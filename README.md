@@ -24,6 +24,22 @@ The dataset used in this analysis contains the following key columns:
 - **Release Date**: The date the movie was released in theaters.
 - **Country**: The country where the movie was primarily produced.
 
+## How to Use This Repository
+
+### Prerequisites
+
+- **Python 3.x** installed
+- Required packages:
+  - `pandas`
+  - `matplotlib`
+  - `seaborn`
+
+You can install the required packages using:
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
 ## Key Business Questions
 
 This analysis is structured to answer the following **10 key business questions**:
@@ -77,21 +93,6 @@ While a larger budget often correlates with higher box office gross, it does not
 
 ### Optimal Release Timing
 The analysis identified that movies released during the **summer months** (June, July) and the **holiday season** (November, December) tend to generate the highest profits. However, certain genres like **Horror** and **Romantic Comedies** perform better when released in less competitive months, such as **February** or **October**.
-
-## How to Use This Repository
-
-### Prerequisites
-
-- **Python 3.x** installed
-- Required packages:
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
-
-You can install the required packages using:
-
-```bash
-pip install pandas matplotlib seaborn
 
 
 ## Folder Structure
