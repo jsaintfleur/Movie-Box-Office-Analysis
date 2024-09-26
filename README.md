@@ -97,20 +97,4 @@ The analysis identified that movies released during the **summer months** (June,
 
 ## Folder Structure
 
-Movie-Box-Office-Analysis/
-├── images/               # Folder containing all generated visualizations
-│   ├── [genre_profitability.png](./images/genre_profitability.png)
-│   ├── [genre_profit_margin.png](./images/genre_profit_margin.png)
-│   ├── [correlation_matrix.png](./images/correlation_matrix.png)
-│   ├── [budget_vs_profit.png](./images/budget_vs_profit.png)
-│   ├── [release_month_profit.png](./images/release_month_profit.png)
-│   ├── [genre_vs_month.png](./images/genre_vs_month.png)
-│   ├── [profit_margin_vs_budget.png](./images/profit_margin_vs_budget.png)
-│   ├── [box_office_net_vs_gross.png](./images/box_office_net_vs_gross.png)
-│   ├── [budget_break_even.png](./images/budget_break_even.png)
-│   └── [release_date_vs_profit_margin.png](./images/release_date_vs_profit_margin.png)
-│
-├── movies.py             # Main Python script for analysis
-├── movies.csv            # Dataset used for analysis
-├── README.md             # Project documentation (this file)
-└── LICENSE.txt           # MIT License for the project
+Movie-Box-Office-Analysis/├── images/               # Folder containing all generated visualizations│   ├── [genre_profitability.png](./images/genre_profitability.png)│   ├── [genre_profit_margin.png](./images/genre_profit_margin.png)│   ├── [correlation_matrix.png](./images/correlation_matrix.png)│   ├── [budget_vs_profit.png](./images/budget_vs_profit.png)│   ├── [release_month_profit.png](./images/release_month_profit.png)│   ├── [genre_vs_month.png](./images/genre_vs_month.png)│   ├── [profit_margin_vs_budget.png](./images/profit_margin_vs_budget.png)│   ├── [box_office_net_vs_gross.png](./images/box_office_net_vs_gross.png│   ├── [budget_break_even.png](./images/budget_break_even.png)│   └── [release_date_vs_profit_margin.png](./images/release_date_vs_profit_margin.png)│├── movies.py             # Main Python script for analysis├── movies.csv            # Dataset used for analysis├── README.md             # Project documentation (this file)└── LICENSE.txt           # MIT License for the project
