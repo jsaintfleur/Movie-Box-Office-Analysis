@@ -13,12 +13,9 @@ Imagine you're a high-powered movie executive tasked with making decisions on wh
 
 This analysis is designed to answer these questions and more, using mock movie data as a representative sample of historical box office performance.
 
-
-
 ## Data Description
 
 The dataset used for this analysis contains the following key columns:
-
 - **Title**: The name of the movie.
 - **Genre**: The genre classification (e.g., Action, Comedy, Drama).
 - **Box Office Gross**: Total gross earnings at the box office.
@@ -41,7 +38,6 @@ This analysis is structured to address the following **10 key business questions
 8. **What is the relationship between the box office net and box office gross?**
 9. **Does the budget affect the likelihood of a movie breaking even or generating loss?**
 10. **How does the release date impact the overall profit margin for movies?**
-
 
 ## Analysis Approach
 
@@ -98,56 +94,23 @@ You can install the required packages using:
 pip install pandas matplotlib seaborn
 
 
-## Project Structure and File Descriptions
+## Folder Structure
 
-The project is organized into the following files and directories:
-
-### `movies.py`
-
-- This is the **main Python script** that runs the analysis. It performs data cleaning, calculates profitability metrics, and generates visualizations that answer the key business questions.
-- It contains several functions that:
-  - Load and clean the dataset (`load_and_clean_data()`).
-  - Calculate profit and profit margin for each movie (`calculate_profitability()`).
-  - Generate a variety of visualizations, such as:
-    - **Average Profit by Genre**
-    - **Budget vs Profit**
-    - **Profit by Release Month**
-  - Save all visualizations in the `images/` folder.
-  
-### `movies.csv`
-
-- This is the **dataset** used for the analysis. It contains mock data on movies, including their genres, budgets, box office performance, and release dates.
-- The data includes the following columns:
-  - **Title**: The name of the movie.
-  - **Genre**: The movie's genre.
-  - **Box Office Gross**: Total gross earnings at the box office.
-  - **Box Office Net**: Net earnings after expenses.
-  - **Budget**: The movie's production budget.
-  - **Release Date**: The movie's release date.
-  - **Country**: The country where the movie was produced.
-
-### `images`
-
-- This folder contains **all the generated visualizations**. Each visualization is saved as a `.png` image file.
-  
-- Visualizations include:
-  - `genre_profitability.png`: A bar plot showing average profit by genre.
-  - `genre_profit_margin.png`: A bar plot showing average profit margin by genre.
-  - `correlation_matrix.png`: A heatmap showing the correlation between box office metrics (budget, gross, net, and profit).
-  - `budget_vs_profit.png`: A scatter plot of movie budget vs profit.
-  - `release_month_profit.png`: A bar plot showing average profit by release month.
-  - `genre_vs_month.png`: A box plot showing how different genres perform in different months.
-  - `profit_margin_vs_budget.png`: A scatter plot showing how profit margins vary by budget size.
-  - `box_office_net_vs_gross.png`: A regression plot showing the relationship between box office gross and net.
-  - `budget_break_even.png`: A box plot comparing budget sizes for movies that break even vs. those that generate a loss.
-  - `release_date_vs_profit_margin.png`: A bar plot showing profit margin by release month.
-
-### `README.md`
-
-- This **README file** provides an overview of the project, the business scenario, the data, and a guide on how to run the analysis.
-- It explains the purpose of the analysis and how the results can help movie executives make better investment decisions.
-
-
-### `LICENSE`
-
-- The project is licensed under the **MIT License**, which allows others to freely use, modify, and distribute the project as long as proper attribution is given.
+Movie-Box-Office-Analysis/
+│
+├── images/               # Folder containing all generated visualizations
+│   ├── genre_profitability.png
+│   ├── genre_profit_margin.png
+│   ├── correlation_matrix.png
+│   ├── budget_vs_profit.png
+│   ├── release_month_profit.png
+│   ├── genre_vs_month.png
+│   ├── profit_margin_vs_budget.png
+│   ├── box_office_net_vs_gross.png
+│   ├── budget_break_even.png
+│   └── release_date_vs_profit_margin.png
+│
+├── movies.py             # Main Python script for analysis
+├── movies.csv            # Dataset used for analysis
+├── README.md             # Project documentation (this file)
+└── LICENSE               # MIT License for the project
