@@ -92,7 +92,7 @@ You can install the required packages using:
 
 ```bash
 pip install pandas matplotlib seaborn
-```
+
 
 ## Folder Structure
 
