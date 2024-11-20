@@ -69,19 +69,6 @@ Two key profitability metrics were calculated for each movie:
 - **Profit**: Calculated as `box office net - budget`.
 - **Profit Margin (%)**: Profit expressed as a percentage of the budget, calculated as `(profit / budget) * 100`.
 
-### Visualizations
-
-To make the data more interpretable and actionable, the following **visualizations** were created:
-- **Average Profit by Genre**: A bar plot illustrating which genres tend to generate the highest profits.
-- **Average Profit Margin by Genre**: A bar plot showing how profit margins differ across genres.
-- **Correlation Matrix**: A heatmap displaying the correlation between budget, box office gross, net, and profit.
-- **Budget vs Profit**: A scatter plot illustrating the relationship between movie budgets and their profitability.
-- **Profit by Release Month**: A bar chart showing which months tend to generate the highest profits based on historical data.
-- **Genre vs Month Profit**: A box plot showing how different genres perform based on the release month.
-- **Profit Margin vs Budget**: A scatter plot displaying how profit margins vary across different budget sizes.
-- **Box Office Net vs Gross**: A regression plot illustrating the relationship between box office gross and net earnings.
-- **Budget and Break Even**: A box plot comparing the budgets of movies that break-even versus those that incur a loss.
-- **Release Date vs Profit Margin**: A bar plot showing how the release date impacts profit margin.
 
 ## Key Insights
 
@@ -94,6 +81,78 @@ While a larger budget often correlates with higher box office gross, it does not
 ### Optimal Release Timing
 The analysis identified that movies released during the **summer months** (June, July) and the **holiday season** (November, December) tend to generate the highest profits. However, certain genres like **Horror** and **Romantic Comedies** perform better when released in less competitive months, such as **February** or **October**.
 
+
+## Visualizations
+
+### 1. Average Profit by Genre
+![Average Profit by Genre](./images/genre_profitability.png)
+
+This bar plot illustrates which genres tend to generate the highest profits. It helps identify which movie genres are the most lucrative for investors.
+
+---
+
+### 2. Average Profit Margin by Genre
+![Average Profit Margin by Genre](./images/genre_profit_margin.png)
+
+This bar plot shows how profit margins differ across genres, highlighting which genres offer the highest returns relative to their budgets.
+
+---
+
+### 3. Correlation Matrix
+![Correlation Matrix](./images/correlation_matrix.png)
+
+This heatmap displays the correlation between key variables such as budget, box office gross, net earnings, and profit. It provides insights into how these factors are interrelated.
+
+---
+
+### 4. Budget vs Profit
+![Budget vs Profit](./images/budget_vs_profit.png)
+
+This scatter plot illustrates the relationship between movie budgets and their profitability, revealing whether higher budgets consistently lead to higher profits.
+
+---
+
+### 5. Profit by Release Month
+![Profit by Release Month](./images/release_month_profit.png)
+
+This bar chart shows which months tend to generate the highest profits based on historical data, helping to identify the best time for movie releases.
+
+---
+
+### 6. Genre vs Month Profit
+![Genre vs Month Profit](./images/genre_vs_month.png)
+
+This box plot demonstrates how different genres perform based on their release month, providing insights into seasonal trends for specific genres.
+
+---
+
+### 7. Profit Margin vs Budget
+![Profit Margin vs Budget](./images/profit_margin_vs_budget.png)
+
+This scatter plot displays how profit margins vary across different budget sizes, revealing which budget ranges are most likely to yield the highest returns.
+
+---
+
+### 8. Box Office Net vs Gross
+![Box Office Net vs Gross](./images/box_office_net_vs_gross.png)
+
+This regression plot illustrates the relationship between box office gross and net earnings, showing how gross revenue translates into net profits.
+
+---
+
+### 9. Budget and Break Even
+![Budget and Break Even](./images/budget_break_even.png)
+
+This box plot compares the budgets of movies that break even versus those that incur a loss, helping identify budget thresholds for financial success.
+
+---
+
+### 10. Release Date vs Profit Margin
+![Release Date vs Profit Margin](./images/release_date_vs_profit_margin.png)
+
+This bar plot shows how the release date impacts profit margins, highlighting which times of the year are most favorable for achieving high returns.
+
+---
 
 ## Folder Structure
 
